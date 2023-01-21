@@ -15,7 +15,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -34,4 +34,8 @@ a {
 
     @apply dark:text-violet-300;
   }
+}
+
+ul, li {
+  text-decoration: none;
 }
