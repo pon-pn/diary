@@ -14,10 +14,12 @@ const Home: NextPage<Props> = ({ issues }) => {
     <section>
       <ol className="flex flex-col gap-12">
         {issues.map((issue) => (
-          <li key={issue.number}>
+          <Link href={`/articles/${issue.number}`}>
+          <li className="text-sky-900 cursor-pointer block rounded-lg shadow-md hover:bg-gray-100 shadow-lg max-w-2xl px-8 py-4 bg-white" key={issue.number}>
             <Time dateTime={issue.created_at} />
-            <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
+            {issue.title}
           </li>
+          </Link>
         ))}
       </ol>
     </section>

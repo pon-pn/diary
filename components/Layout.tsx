@@ -27,9 +27,9 @@ export default function Layout({ children }: { children: ReactNode }) {
         </div>
       </header>
       <main className="p-8">
-        <div className="grid gap-3 md:grid-cols-5">
+        <ul className="grid gap-3 md:grid-cols-5">
           <li className="text-sky-500 dark:text-sky-400 cursor-pointer block rounded-lg shadow-md hover:bg-gray-100 shadow-lg max-w-2xl px-8 py-4 bg-white">{children}</li>
-        </div>
+        </ul>
       </main>
       <footer className="container mx-auto max-w-2xl p-4 text-sm">
         <nav>
