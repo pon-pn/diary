@@ -1,0 +1,63 @@
+---
+active_lock_reason: 
+assignee: 
+assignees: []
+author_association: OWNER
+closed_at: 
+comments: 0
+comments_url: https://api.github.com/repos/pon-pn/diary/issues/3/comments
+created_at: '2023-01-23T03:51:51Z'
+events_url: https://api.github.com/repos/pon-pn/diary/issues/3/events
+html_url: https://github.com/pon-pn/diary/issues/3
+id: 1552471867
+labels: []
+labels_url: https://api.github.com/repos/pon-pn/diary/issues/3/labels{/name}
+locked: false
+milestone: 
+node_id: I_kwDOIz8EJs5ciNc7
+number: 3
+performed_via_github_app: 
+reactions:
+  "+1": 0
+  "-1": 0
+  confused: 0
+  eyes: 0
+  heart: 0
+  hooray: 0
+  laugh: 0
+  rocket: 0
+  total_count: 0
+  url: https://api.github.com/repos/pon-pn/diary/issues/3/reactions
+repository_url: https://api.github.com/repos/pon-pn/diary
+state: open
+state_reason: 
+timeline_url: https://api.github.com/repos/pon-pn/diary/issues/3/timeline
+title: '2023-1-23'
+updated_at: '2023-01-23T03:51:51Z'
+url: https://api.github.com/repos/pon-pn/diary/issues/3
+user:
+  avatar_url: https://avatars.githubusercontent.com/u/75652042?v=4
+  events_url: https://api.github.com/users/pon-pn/events{/privacy}
+  followers_url: https://api.github.com/users/pon-pn/followers
+  following_url: https://api.github.com/users/pon-pn/following{/other_user}
+  gists_url: https://api.github.com/users/pon-pn/gists{/gist_id}
+  gravatar_id: ''
+  html_url: https://github.com/pon-pn
+  id: 75652042
+  login: pon-pn
+  node_id: MDQ6VXNlcjc1NjUyMDQy
+  organizations_url: https://api.github.com/users/pon-pn/orgs
+  received_events_url: https://api.github.com/users/pon-pn/received_events
+  repos_url: https://api.github.com/users/pon-pn/repos
+  site_admin: false
+  starred_url: https://api.github.com/users/pon-pn/starred{/owner}{/repo}
+  subscriptions_url: https://api.github.com/users/pon-pn/subscriptions
+  type: User
+  url: https://api.github.com/users/pon-pn
+
+---
+# Gitのコマンドが分からなくなったのでめも
+- 変更ファイルの一覧を確認
+  - git log --name-only
+- 変更ファイルと修正の両方を確認
+  - git log -p
