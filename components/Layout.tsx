@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header className="relative bg-gradient-to-r backdrop-blur lg:border-b lg:border-slate md:mb-8">
+      <header className="relative bg-gradient-to-r backdrop-blur border-b lg:border-slate md:mb-8">
         <div className="max-w-6xl mx-auto px-5">
           <nav className="flex items-center justify-between md:px-12 px-2 py-1">
             <div>
@@ -28,7 +28,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       </header>
       <main className="p-8">
         <ul className="grid gap-3 md:grid-cols-5">
-          <li className="text-sky-500 dark:text-sky-400 cursor-pointer block rounded-lg shadow-md hover:bg-gray-100 shadow-lg max-w-2xl px-8 py-4 bg-white">{children}</li>
+          {children}
         </ul>
       </main>
       <footer className="container mx-auto max-w-2xl p-4 text-sm">

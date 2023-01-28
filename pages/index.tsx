@@ -11,18 +11,16 @@ type Issue = any;
 
 const Home: NextPage<Props> = ({ issues }) => {
   return (
-    <section>
       <ol className="flex flex-col gap-12">
         {issues.map((issue) => (
           <Link href={`/articles/${issue.number}`}>
-          <li className="text-sky-900 cursor-pointer block rounded-lg shadow-md hover:bg-gray-100 shadow-lg max-w-2xl px-8 py-4 bg-white" key={issue.number}>
+            <li className="cursor-pointer flex flex-col gap-1 block px-6 py-3 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
             <Time dateTime={issue.created_at} />
-            {issue.title}
+            <p className="font-semibold text-slate-600 truncate">{issue.title}</p>
           </li>
           </Link>
         ))}
       </ol>
-    </section>
   );
 };
 
